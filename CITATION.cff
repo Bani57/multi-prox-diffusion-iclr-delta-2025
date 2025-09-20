@@ -1,0 +1,68 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Improving Single Noise Level Diffusion Samplers with
+  Restricted Gaussian Oracles
+message: 'If you use this code for your projects, please cite:'
+type: software
+authors:
+  - given-names: Leello
+    family-names: Dadi
+    email: leello.dadi@epfl.ch
+    affiliation: 'EPFL STI IEM LIONS, Lausanne, Switzerland'
+    orcid: 'https://orcid.org/0000-0003-2580-4913'
+  - given-names: Andrej
+    family-names: Janchevski
+    email: andrej.janchevski@epfl.ch
+    affiliation: 'EPFL STI IEM LIONS, Lausanne, Switzerland'
+    orcid: 'https://orcid.org/0000-0001-9568-0966'
+  - given-names: Volkan
+    family-names: Cevher
+    email: volkan.cevher@epfl.ch
+    affiliation: 'EPFL STI IEM LIONS, Lausanne, Switzerland'
+    orcid: 'https://orcid.org/0000-0002-5004-201X'
+identifiers:
+  - type: url
+    value: 'https://openreview.net/forum?id=xkiI5tou6J'
+repository-code: >-
+  https://github.com/Bani57/multi-prox-diffusion-iclr-delta-2025
+abstract: >-
+  Diffusion models and diffusion Monte-Carlo schemes that
+  sample from unnormalized log-densities, both rely on
+  denoisers ( or score estimates) at different noise scales.
+  This complicates the sampling process as denoising
+  schedules require careful tuning and nested inner-MCMC
+  loops. In this work, we propose a single noise level
+  sampling procedure that only requires a single low-noise
+  denoiser. Our framework results from improvements we bring
+  to the multimeasurement Walk-Jump sampler of Saremi et al.
+  2021 by mixing in ideas from the proximal sampler of Shen
+  et al. 2020. Our analysis shows that annealing (or
+  multiple noise scales) is unnecessary if one is willing to
+  pay an increased memory cost. We demonstrate this by
+  proposing an entirely log-concave sampling framework.
+license: CC-BY-1.0
+preferred-citation:
+  type: conference-paper
+  title: 'Improving Single Noise Level Denoising Samplers with Restricted Gaussian Oracles'
+  collection-title: 'ICLR 2025 Workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy'
+  year: 2025
+  url: 'https://openreview.net/forum?id=xkiI5tou6J'
+  authors:
+  - given-names: Leello
+    family-names: Dadi
+    email: leello.dadi@epfl.ch
+    affiliation: 'EPFL STI IEM LIONS, Lausanne, Switzerland'
+    orcid: 'https://orcid.org/0000-0003-2580-4913'
+  - given-names: Andrej
+    family-names: Janchevski
+    email: andrej.janchevski@epfl.ch
+    affiliation: 'EPFL STI IEM LIONS, Lausanne, Switzerland'
+    orcid: 'https://orcid.org/0000-0001-9568-0966'
+  - given-names: Volkan
+    family-names: Cevher
+    email: volkan.cevher@epfl.ch
+    affiliation: 'EPFL STI IEM LIONS, Lausanne, Switzerland'
+    orcid: 'https://orcid.org/0000-0002-5004-201X'
