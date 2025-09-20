@@ -1,6 +1,6 @@
 # Improving Single Noise Level Diffusion Samplers with Restricted Gaussian Oracles
 
-NeurIPS 2025 submission
+ICLR 2025 DeLTa Workshop Poster
 
 ----------------------
 
@@ -20,7 +20,7 @@ this by proposing an *entirely log-concave* sampling framework.
 
 Clone this repository by running:
 
-`git clone https://github.com/ResearchWeasel/multi-prox-diffusion-nips-2025.git`
+`git clone https://github.com/Bani57/multi-prox-diffusion-iclr-delta-2025.git`
 
 ### Dependencies
 
@@ -99,6 +99,24 @@ To reproduce our Mixture of Gaussians RGO example, run the `MoG40.ipynb` noteboo
 
 ----------
 
+## Citation
+
+If you use this code for your projects, please cite:
+```
+@inproceedings{
+dadi2025improving,
+title={Improving Single Noise Level Denoising Samplers with Restricted Gaussian Oracles},
+author={Leello Tadesse Dadi and Andrej Janchevski and Volkan Cevher},
+booktitle={ICLR 2025 Workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy},
+year={2025},
+url={https://openreview.net/forum?id=xkiI5tou6J}
+}
+```
+
+----------
+
 ## Authors
 
-- Anonymous
+- Leello Tadesse Dadi, EPFL STI IEM LIONS, Lausanne, Switzerland, leello.dadi@epfl.ch
+- Andrej Janchevski, EPFL STI IEM LIONS, Lausanne, Switzerland, andrej.janchevski@epfl.ch
+- Volkan Cevher, EPFL STI IEM LIONS, Lausanne, Switzerland, volkan.cevher@epfl.ch
